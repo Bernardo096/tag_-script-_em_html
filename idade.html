@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var ano = 2016;//é assim que se declara uma variável,não é necessário declarar o tipo dela
+        var pulolinha = "<br>";
+        document.write("A idade de flávio é: "+pulolinha+pulolinha+pulolinha);
+        document.write(10 + 18+pulolinha);//aceita  números fora de aspas e os identifica como int
+        document.write("12" + "28");//se estiver entre aspas irá somente concatenar os números e não somar
+        //para concatenar se usa o +
+        //caso utilizar string e int juntos ("18"+20) o javascript transformara em script o valor int
+        document.write(pulolinha);
+        document.write("Flávio nasceu em: ");
+        document.write(2016 - 39);
+        document.write(pulolinha);
+        document.write("A média das idades é: <br>");
+        document.write(20 + 10 + 30 / 3, "<br>");//não vai dar ceto pois a divisão vai ser feita primeiro pois tem prioridade
+        document.write((20 + 10 + 30) / 3, "<br>");//dessa maneira dará certo
+        //html não faz operações matemáticas
+        document.write("Eu acertei: " + (20 / 50) * 100 + pulolinha)
+        var media = (40 + 70) / 30
+        document.write("A media é: " + Math.round(media));
+        //Math.round arredonda os valores quebrados
+        // aqui arrendondou o valor 3.7 para 4
+        //é sempre bom nomear variáveis, por exemplo a idade de joão é 20, a variavél seria: var idadeJoao = 20;
+        
+    </script>
+</body>
+
+</html>
